@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="flags_challenge">FLAGS CHALLENGE</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="save">save</string>
+    <string name="challenge_will_start_in_00_20">CHALLENGE WILL START IN 00: 20</string>
+    <string name="guess_the_country_by_the_flag">Guess the Country by the Flag ?</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="next_question_in_00_10">NEXT QUESTION IN 00: 10</string>
+</resources>
