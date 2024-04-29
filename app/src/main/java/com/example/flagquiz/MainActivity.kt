@@ -106,16 +106,16 @@ class MainActivity : AppCompatActivity() {
         } else {
 
             val time = h1 + h2 + m1 + m2 + s1 + s2
-            val timeFormat = SimpleDateFormat("hhmmss", Locale.US)
+            val timeFormat = SimpleDateFormat("HHmmss", Locale.US)
             try {
                 val inputTime: Date = timeFormat.parse(time)!!
                 timeFormat.format(inputTime)
 
-                val currenTimeFormat = SimpleDateFormat("HHmmss", Locale.US)
+                val currentTimeFormat = SimpleDateFormat("HHmmss", Locale.US)
 
-                val nowTime: String = currenTimeFormat.format(Date())
+                val nowTime: String = currentTimeFormat.format(Date())
 
-                val currentTime: Date = currenTimeFormat.parse(nowTime)!!
+                val currentTime: Date = currentTimeFormat.parse(nowTime)!!
 
                 if (inputTime.before(currentTime)) {
                     Toast.makeText(applicationContext, "Entered time over..", Toast.LENGTH_SHORT)
