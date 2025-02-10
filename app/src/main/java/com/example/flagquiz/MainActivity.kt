@@ -456,7 +456,10 @@ class MainActivity : AppCompatActivity() {
         sharedPreference = SharedPreference(this)
 
         binding.hhmmss.h1.requestFocus()
+
+
     }
+
 
     override fun onStart() {
         super.onStart()
